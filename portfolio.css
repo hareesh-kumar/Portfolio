@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 1000px;
+    background-color: #f8f8f8;
+}
+p{
+    background: linear-gradient(to right, white, #dacbd9);
+}
+h3{
+    background: linear-gradient(#afafb3, #878593, #afafb3 );
+    color: white;
+    line-height: 30px;
+}
+.name{
+    display: inline-block;
+    width: 500px;
+}
+.moto{
+    display: inline-block;
+}
