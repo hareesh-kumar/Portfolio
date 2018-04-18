@@ -63,6 +63,7 @@
     margin-top: 20px;
     margin-right: 20px;
     vertical-align: top;
+    background: linear-gradient(to right, white, #dacbd9);
 }
 .webpreview{
     width: 285px;
