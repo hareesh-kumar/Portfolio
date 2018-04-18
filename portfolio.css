@@ -3,21 +3,106 @@
     padding: 0px;
 }
 #container{
-    width: 1000px;
+    width: 945px;
     background-color: #f8f8f8;
 }
-p{
-    background: linear-gradient(to right, white, #dacbd9);
-}
-h3{
-    background: linear-gradient(#afafb3, #878593, #afafb3 );
-    color: white;
+#header{
+    height: 30px;
+    padding: 20px;
     line-height: 30px;
+    vertical-align: middle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .name{
     display: inline-block;
-    width: 500px;
+    width: 400px;
 }
 .moto{
     display: inline-block;
+    float: right;
+}
+#content{
+    padding: 20px 0px 20px 20px;
+    background: radial-gradient(#6f5964,#1a0a0e)
+}
+.mypic{
+    width: 380px;
+    height: 250px;
+    border: 5px #c0c0c0;
+    border-style: solid;
+    margin-right: 20px;
+    display: inline-block;
+}
+#aboutme{
+    width: 490px;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+}
+.title{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 10px;
+    background: linear-gradient(#afafb3, #878593, #afafb3 );
+    color: white;
+
+}
+.summary, .description {
+    background: linear-gradient(to right, white, #dacbd9);
+    padding: 10px;
+}
+.description{
+    font-size: 14.5px;
+    height: 160px;
+    text-align: justify;
+}
+.projects{
+    display: inline-block;
+    width: 285px;
+    margin-top: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.webpreview{
+    width: 285px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.button{
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #407d61;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 5px 5px 6px #888888;
+    
+}
+.contacts{
+    padding: 10px;
+    text-align: center;
+    font-size: 125%;
+}
+.socialmedia{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+.contactlinks{
+    font-style: italic;
+    display: inline;
+    text-align: center;
+    color: currentColor;
 }
